@@ -1,1 +1,1 @@
-# 2340ECPage
+# WanderSync EC Page
