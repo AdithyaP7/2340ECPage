@@ -1,2 +1,5 @@
-name: al-folio
+title: WanderSync Showcase
 theme: minima
+markdown: kramdown
+custom_css:
+  - styles.css
