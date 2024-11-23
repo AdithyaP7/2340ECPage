@@ -36,34 +36,34 @@ The architecture of WanderSync is built on the **Model-View-ViewModel (MVVM)** p
 ## UML Diagrams
 
 ### **1. Domain Model V1**
-The initial domain model created during Sprint 1 focuses on the foundational structure of the WanderSync application, including key classes like `User`, `Destination`, `Dining`, and `Accommodation` with their attributes and relationships.
+The initial domain model created during Sprint 1 focuses on the foundational structure of the WanderSync application. It includes essential classes like `User`, `Destination`, and `Transportation` with their attributes and relationships.
 
 ![Domain Model V1](assets/domainmodelv1.png)
 
 ---
 
 ### **2. Domain Model V2**
-Refined in Sprint 2, this domain model includes additional classes such as `TravelLog` and expands associations to reflect features like travel logging and date tracking.
+Refined in Sprint 2, this domain model introduces new classes such as `TravelLog` and expands associations to reflect additional features like travel logging and collaborative trip planning.
 
 ![Domain Model V2](assets/domainmodelv2.png)
 
 ---
 
 ### **3. Design Class Diagram (DCD)**
-The DCD was introduced in Sprint 3 and incorporates classes for managing dining and accommodation functionalities. It represents relationships such as aggregation, composition, and dependency between classes like `DiningReservation`, `AccommodationBooking`, and `DatabaseManager`.
+The DCD created in Sprint 3 includes classes for managing dining and accommodation reservations. It reflects relationships such as aggregation, composition, and dependency between classes like `User`, `Itinerary`, `DiningReservation`, and `AccommodationReservation`.
 
 ![DCD](assets/DCD.png)
 
 ---
 
 ### **4. Sequence Diagram (SD): Login**
-This sequence diagram outlines the flow of the login process, including interactions between the user, the `LoginViewModel`, and the `DatabaseManager`.
+This sequence diagram illustrates the user login process, including interactions between the `User`, `LoginViewModel`, and `FirebaseAuthService`. It ensures proper credential validation and navigation to the home screen upon successful login.
 
 ![SD Login](assets/SD Login.png)
 
 ---
 
 ### **5. Sequence Diagram / Use Case Diagram: Add Dining Reservation**
-This diagram details the interaction for adding a dining reservation, starting from user input to storing the data in the `DiningDatabase`. It highlights collaboration between the `DiningScreen`, `DiningViewModel`, and `DatabaseManager`.
+This sequence diagram demonstrates the flow of adding a dining reservation, starting from user input to storing the reservation details in the database. It includes error handling for incomplete or invalid details and confirmation of successful reservation creation.
 
 ![SD Add Dining Reservation](assets/AddDiningRes.png)
