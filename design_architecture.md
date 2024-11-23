@@ -34,14 +34,36 @@ The architecture of WanderSync is built on the **Model-View-ViewModel (MVVM)** p
      - Mentioned in Sprint 4 to streamline the creation of travel posts. Used to generate different types of entries (e.g., accommodations, dining reservations) based on user inputs.
 
 ## UML Diagrams
-### Design Class Diagram
-Below is a UML diagram showcasing the relationships and structure of the core components in the application:
 
-![Design Class Diagram](assets/uml_diagram.png)
+### **1. Domain Model V1**
+The initial domain model created during Sprint 1 focuses on the foundational structure of the WanderSync application, including key classes like `User`, `Destination`, `Dining`, and `Accommodation` with their attributes and relationships.
 
-### Sequence Diagram
-Here is a sequence diagram illustrating how a user interacts with the system to book a trip:
+![Domain Model V1](assets/domainmodelv1.png)
 
-![Sequence Diagram](assets/sequence_diagram.png)
+---
 
-These diagrams provide a clear visual representation of the application's design and how its components interact.
+### **2. Domain Model V2**
+Refined in Sprint 2, this domain model includes additional classes such as `TravelLog` and expands associations to reflect features like travel logging and date tracking.
+
+![Domain Model V2](assets/domainmodelv2.png)
+
+---
+
+### **3. Design Class Diagram (DCD)**
+The DCD was introduced in Sprint 3 and incorporates classes for managing dining and accommodation functionalities. It represents relationships such as aggregation, composition, and dependency between classes like `DiningReservation`, `AccommodationBooking`, and `DatabaseManager`.
+
+![DCD](assets/DCD.png)
+
+---
+
+### **4. Sequence Diagram (SD): Login**
+This sequence diagram outlines the flow of the login process, including interactions between the user, the `LoginViewModel`, and the `DatabaseManager`.
+
+![SD Login](assets/SD Login.png)
+
+---
+
+### **5. Sequence Diagram / Use Case Diagram: Add Dining Reservation**
+This diagram details the interaction for adding a dining reservation, starting from user input to storing the data in the `DiningDatabase`. It highlights collaboration between the `DiningScreen`, `DiningViewModel`, and `DatabaseManager`.
+
+![SD Add Dining Reservation](assets/AddDiningRes.png)
