@@ -10,7 +10,7 @@ The **WanderSync project** proved to be an enlightening and rewarding experience
 
 
 ### Group Contributions
-Our team worked cohesively to divide tasks and tackle different components of the application. Each member brought unique strengths to the table:
+Our team worked cohesively to divide tasks and tackle different components of the application. Each member brought unique strengths to the table.< br / > 
 **Frontend Design**:
 - Some members focused on designing an intuitive and visually appealing user interface.
 - For example, they developed features like the **welcome screen**, **navigation bar**, and **placeholder screens** in Sprint 1, ensuring seamless navigation between screens like destinations, accommodations, and logistics.
