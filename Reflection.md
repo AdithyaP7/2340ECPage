@@ -29,14 +29,14 @@ Our team worked cohesively to divide tasks and tackle different components of th
 - Collective brainstorming sessions allowed the group to find solutions efficiently.
 
 ### Challenges Encountered
--- **Technical hurdles**: Implementing real-time data synchronization and designing Firebase databases to support seamless interaction between users and their data was complex. Restricting data visibility to specific users and groups, required careful consideration.
--- **Time constraints**: Balancing the project's demands with academic responsibilities tested our time management skills.
+- **Technical hurdles**: Implementing real-time data synchronization and designing Firebase databases to support seamless interaction between users and their data was complex. Restricting data visibility to specific users and groups, required careful consideration.
+- **Time constraints**: Balancing the project's demands with academic responsibilities tested our time management skills.
 
 ### Knowledge Gained
 The project significantly enhanced our technical and collaborative skills:
--- **Technical skills**: Working with Firebase, MVVM architecture, design pattern, unit tests and advanced Android studio features deepened our understanding of mobile app development, agile methodologies, and general software development as well.
--- **Problem-solving**: Debugging and optimizing the application's features reinforced our ability to break down complex problems into manageable tasks.
--- **Team collaboration**: The project underscored the importance of clear communication, task delegation, and mutual support to deliver a cohesive product.
+- **Technical skills**: Working with Firebase, MVVM architecture, design pattern, unit tests and advanced Android studio features deepened our understanding of mobile app development, agile methodologies, and general software development as well.
+- **Problem-solving**: Debugging and optimizing the application's features reinforced our ability to break down complex problems into manageable tasks.
+- **Team collaboration**: The project underscored the importance of clear communication, task delegation, and mutual support to deliver a cohesive product.
 
 ### Final Thoughts
 The WanderSync project reflects the power of teamwork, dedication, and continuous learning. Despite the challenges, our combined efforts produced a functional, user-friendly travel management app that can help users plan their adventures more efficiently. The experience has not only prepared us for future development projects but also instilled a deeper appreciation for the intricacies of creating impactful software solutions.
