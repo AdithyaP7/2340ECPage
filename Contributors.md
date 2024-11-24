@@ -18,6 +18,7 @@ The people who contributed to this website and to the WanderSync app's developme
 - Destination Screen (front end)
 - Logistics Screen
 - Github Website
+  
 ### Arthur
 - Splash page
 - Placeholder screens
@@ -28,6 +29,7 @@ The people who contributed to this website and to the WanderSync app's developme
 - Revamped UI
 - Community Travel Screen
 - Github Website
+  
 ### Adithya
 - Dining Reservation Screen
 - Accommodation Screen
