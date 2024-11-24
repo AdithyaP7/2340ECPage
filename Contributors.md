@@ -23,6 +23,7 @@ The people who contributed to this website and to the WanderSync app's developme
 - Splash page
 - Placeholder screens
 - Logistics Screen
+- Change and add group functionality
 - Github Website
 
 ### Ishaan
