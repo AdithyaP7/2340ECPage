@@ -14,3 +14,4 @@ Explore the details of this project through the following sections:
 - [Introduction](introduction.md)
 - [Design & Architecture](design_architecture.md)
 - [User Interface (UI)](ui.md)
+- [Functionaality](Functionality.md)
