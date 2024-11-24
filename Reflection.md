@@ -10,7 +10,7 @@ The **WanderSync project** proved to be an enlightening and rewarding experience
 
 
 ### Group Contributions
---
+---
 Our team worked cohesively to divide tasks and tackle different components of the application. Each member brought unique strengths to the table.
 
 **Frontend Design**:
