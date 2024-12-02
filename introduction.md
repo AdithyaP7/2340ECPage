@@ -1,42 +1,29 @@
----
-layout: default
-title: Introduction
----
-
-# Introduction
-
-## CS 2340 Sprint 4: Travel Community
-
-Welcome to **WanderSync: A Collaborative Travel Management System** — a project designed to simplify the process of creating and managing travel itineraries for both solo and group travel. This innovative app allows users to contribute to and refine travel plans in real-time.
-
-### Background
-
-Through **WanderSync**, users can:
-- Organize locations, transportation options, accommodations, dining reservations, and personal notes.
-- Securely create accounts to manage their itineraries.
-- Leverage a user-friendly interface for seamless itinerary management.
-- Collaborate with group members in real-time to synchronize travel details and updates.
-
-#### Key Features
-- **Integration of travel details**: Manage destinations, transportation schedules, lodging information, and dining preferences.
-- **Collaboration tools**: Add and share notes, create shared travel agendas, and synchronize updates among all group members.
-
-The project is implemented across four sprints, with specific requirements for each. 
----
-
-### Purpose
-
-This project has two primary goals:
-1. **Team Collaboration**: Gain experience working collaboratively to develop a product that meets specific requirements.
-2. **Software Engineering Skills**: Improve skills with modern technologies, key software engineering principles, and documentation techniques.
-
-Throughout the project:
-- We learned to document analysis and design using standard techniques.
-- We learned to test occur alongside development, requiring the creation of unit tests to verify implementation functionality.
-
-With each sprint, our aptitude in software engineering concepts grew, preparing us to apply these principles in future projects.
-
----
-
-### Looking Ahead
-**WanderSync** reflects the effort, innovation, and collaboration that are fundamental to real-world software development, making it a perfect addition to our portfolios.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction - Wanderly</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <h2>A Wanderly welcome</h2>
+    </section>
+    <section class="container b-padding">
+        <p>Welcome to Wanderly — a project designed to simplify the process of creating and managing travel itineraries for both &#129465; solo and &#128111; group travel. This innovative app allows users to contribute to and refine travel plans in &#9203; real-time.</p>
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <p class="start">Wanderly allows users to organize locations, transportation options, accommodations, dining reservations, and create personal notes. Users first create a secure account to manage their itineraries. They can then invite friends, family, or colleagues to join their travel group and collaborate on the itinerary.</p>
+        <p class="start"> Some key features of Wanderly include the ability to add family members and friends to your trip. On the logistics page, you can add a personalized note to your travel destination. You can also use our smart fill-in algorithm to calculate how many days you've planned a trip.</p>
+        <!-- <p class="start">Ready to start planning your next adventure? Sign up for Wanderly today!</p> -->
+        <p class="start">Wanderly was developed with two primary objectives in mind. First, to foster effective team collaboration by working together to create a product that meets specific requirements. Second, to enhance our software engineering skills by utilizing modern technologies, adhering to GRASP and SOLID principles, and employing comprehensive documentation techniques.</p>
+    </section>
+    <section>
+        <a href="design.md">
+            Design & Architecture
+        </a>
+        <p class="p-small">MVVM • Design Patterns</p>
+    </section>
+    </main>
+</body>
+</html>
