@@ -21,3 +21,4 @@ Wanderly helps you explore new places, find hidden gems, and document your journ
 - Tarun Vellanki
 - Javier Rodriguez
 - Ishaan Reddy
+- Adithya Peruvemba
